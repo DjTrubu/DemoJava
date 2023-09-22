@@ -1,7 +1,9 @@
 package com.test.me;
 
+import com.test.me.Game_Bullet.Game;
+
 public class MainClass {
 	public static void main(String[] args) {
-		System.out.println("Ya tenemos Commit");
+		new Game().main(args);
 	}
 }
